@@ -39,4 +39,4 @@ Local validation: organization YAML and manifest paths parsed successfully; orig
 
 GitHub's project item listing did not agree with the issue-side project associations during verification. Re-adding the associations in small API batches succeeded, but the project-wide listing still returned zero; UI additions also disappeared from the view after reload. This is an unresolved GitHub listing problem, not a verified working board. The profile therefore links directly to the [roadmap index](ROADMAP.md), which preserves all 42 source issue links. Do not interpret an empty project view as an empty backlog.
 
-The initial review covered the five existing public product/website repositories plus the new shared `.github` repository. A private onboarding `demo-repository` appeared during the session and was left untouched so this review would not interfere with concurrent owner work.
+The initial review covered the five existing public product/website repositories plus the new shared `.github` repository. Repositories created concurrently with this review are outside that verified snapshot.
