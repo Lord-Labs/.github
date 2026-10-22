@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Help and project directory / المساعدة
+    url: https://github.com/Lord-Labs/.github/blob/main/SUPPORT.md
+    about: Find the right repository and contribution resources.
+  - name: Private security reporting / إبلاغ أمني خاص
+    url: https://github.com/Lord-Labs/.github/blob/main/SECURITY.md
+    about: Do not publish vulnerabilities, credentials, or private user data in public issues.

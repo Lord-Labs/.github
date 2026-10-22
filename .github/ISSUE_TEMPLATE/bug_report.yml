@@ -1,0 +1,38 @@
+name: Bug report / بلاغ عن مشكلة
+description: Report a reproducible problem. Do not include secrets or private data.
+title: "bug: "
+body:
+  - type: markdown
+    attributes:
+      value: Security vulnerabilities must be reported privately using the repository's Security tab. English and Arabic are welcome.
+  - type: input
+    id: environment
+    attributes:
+      label: Version and environment
+      description: Release or commit, URL, operating system, browser, and language where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Give the smallest sequence that reproduces the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized logs or screenshots
+      description: Remove tokens, authenticated URLs, private content, and personal data.
