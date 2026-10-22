@@ -54,4 +54,3 @@ Snapshot of the 42 public issues open during the organization review on 2026-10-
 - [#50 — research: qualify Firefox and browser-store distribution requirements](https://github.com/Lord-Labs/ZipZap/issues/50)
 - [#51 — research: define supported media formats and extraction boundaries](https://github.com/Lord-Labs/ZipZap/issues/51)
 - [#82 — test: diagnose installed browser runner stall after Chromium transfer](https://github.com/Lord-Labs/ZipZap/issues/82)
-
