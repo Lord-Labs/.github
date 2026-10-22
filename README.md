@@ -12,6 +12,8 @@ This repository holds the [organization profile](profile/README.md) and shared c
 | [Maintainer guide](docs/MAINTAINERS.md) | Repository setup and ongoing maintenance |
 | [Organization review](docs/ORGANIZATION_REVIEW.md) | Review scope, changes, and remaining owner decisions |
 | [Roadmap](https://github.com/orgs/Lord-Labs/projects/1) | Shared view of existing project work |
+| [Roadmap index](docs/ROADMAP.md) | Linked review snapshot of the public backlog |
+| [Discussions](https://github.com/orgs/Lord-Labs/discussions) | Organization-wide questions and ideas |
 
 GitHub uses these community defaults when a repository has no equivalent file. Existing project policies take precedence. Issue templates are inherited only if the project has no local issue templates/configuration. CODEOWNERS, Dependabot configuration, workflows, and licenses are not inherited; configure them in each repository.
 

@@ -15,4 +15,6 @@ Read the README and search existing issues before opening a report. Include the 
 
 Use the repository's issue forms for bugs and feature requests. The [shared roadmap](https://github.com/orgs/Lord-Labs/projects/1) is a view of tracked work, not a delivery-date commitment. NetScope remains at foundation stage; check its actual state before expecting monitoring or billing capabilities.
 
+For organization-wide questions or ideas, use [Discussions](https://github.com/orgs/Lord-Labs/discussions). Reproducible bugs and scoped implementation work belong in the affected repository's issues.
+
 Support is provided by maintainers and contributors as available. There is no guaranteed response time. Security reports belong in [private security reporting](https://github.com/Lord-Labs/.github/blob/main/SECURITY.md), not public support threads.

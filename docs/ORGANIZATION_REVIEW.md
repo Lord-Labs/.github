@@ -15,6 +15,7 @@ Scope: all five existing public repositories, their community files, repository 
 | Merge hygiene | Websites kept merged branches and allowed multiple merge styles | Use existing application convention: squash merge and delete merged feature branches |
 | Branch protection | LOR./ZipZap already protected; NetScope and websites not protected | Preserve existing application rules; add PR, conversation, force-push/deletion protection to unprotected main branches |
 | Shared planning | No organization project board | Create a board from existing open issues; link active work without inventing completion or changing project dependency gates |
+| Community conversation | No organization discussion hub | Enable Discussions on `.github` and connect it to the organization |
 | Discoverability | NetScope/ZipZap website lacked topics | Add factual stack/product topics and NetScope documentation homepage |
 
 ## Decisions requiring owner information
@@ -31,3 +32,9 @@ Check the live repository settings after applying changes. Community defaults ca
 The original LOR. branch protection includes the deliberately skipped two-person E2E context. This review preserves its existing protection; skipped E2E is not evidence that live media was tested. See its existing reproducibility issue [lor#221](https://github.com/Lord-Labs/lor/issues/221).
 
 Product code, release binaries, deployments, open dependency PRs, and hardware validation are outside this organization-management change. No repository is renamed, archived, deleted, or made more public. The new profile repository contains public community resources only; the shared roadmap contains existing public issue references.
+
+Verification completed: private vulnerability reporting, vulnerability alerts, automated security updates, secret-scanning user alerts and push protection were enabled and read back on all six reviewed repositories. There were zero open secret-scanning alerts returned at verification time; this is not a guarantee that no unsupported secret exists.
+
+Local validation: organization YAML and manifest paths parsed successfully; original wordmarks match the supplied website assets; NetScope repository checks passed (56 Markdown links); LORD Labs website passed 21 tests and build; ZipZap website passed 5 tests and build. The two website changes were merged through PRs [lordlabs.tech#1](https://github.com/Lord-Labs/lordlabs.tech/pull/1) and [zipzap-website#5](https://github.com/Lord-Labs/zipzap-website/pull/5). NetScope dependency maintenance is tracked in [NetScope#36](https://github.com/Lord-Labs/NetScope/pull/36); its hosted checks must pass before merging.
+
+GitHub's project item listing did not agree with the issue-side project associations during verification. A direct [roadmap index](ROADMAP.md) preserves the 42 source issue links while the project listing is checked. Do not interpret an empty project view as an empty backlog.

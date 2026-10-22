@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">Independent software. Open source. Thoughtful digital products.</p>
-<p align="center"><a href="https://lordlabs.tech">Visit the lab</a> · <a href="https://github.com/orgs/Lord-Labs/projects/1">Roadmap</a> · <a href="https://github.com/Lord-Labs/.github/blob/main/CONTRIBUTING.md">Contribute</a></p>
+<p align="center"><a href="https://lordlabs.tech">Visit the lab</a> · <a href="https://github.com/Lord-Labs/.github/blob/main/docs/ROADMAP.md">Roadmap</a> · <a href="https://github.com/orgs/Lord-Labs/discussions">Discussions</a> · <a href="https://github.com/Lord-Labs/.github/blob/main/CONTRIBUTING.md">Contribute</a></p>
 
 We build useful tools with clear interfaces, honest product claims, and care for English and Arabic. Each project has its own identity, license, and release pace.
 
