@@ -16,6 +16,7 @@ We build useful tools with clear interfaces, honest product claims, and care for
 | --- | --- | --- |
 | [ZipZap](https://github.com/Lord-Labs/ZipZap) | Windows download manager with a Rust engine and an English/Arabic desktop. | [Releases and beta downloads](https://github.com/Lord-Labs/ZipZap/releases) · [Website](https://zipzap-website.vercel.app) |
 | [LOR.](https://github.com/Lord-Labs/lor) | Open-source video meetings with bilingual captions and meeting memory. | [Try it](https://lor-bay.vercel.app) · [Documentation](https://github.com/Lord-Labs/lor#readme) |
+| [OpenDownload](https://github.com/Lord-Labs/OpenDownload) | Public video, audio and image downloader with an English/Arabic workspace and self-hosting support. | [Open app](https://opendownload.lord.blitz.cloud/) · [Website](https://opendownload-website.vercel.app/en) · [Documentation](https://github.com/Lord-Labs/OpenDownload#readme) |
 | [NetScope](https://github.com/Lord-Labs/NetScope) | Cooperative household internet accounting for Windows and Android, currently at foundation stage. | [Actual state](https://github.com/Lord-Labs/NetScope/blob/main/docs/STATE.md) · [Next steps](https://github.com/Lord-Labs/NetScope/blob/main/docs/ROADMAP.md) |
 
 Our websites live in [lordlabs.tech](https://github.com/Lord-Labs/lordlabs.tech) and [zipzap-website](https://github.com/Lord-Labs/zipzap-website). Shared community guidance lives in [.github](https://github.com/Lord-Labs/.github).
@@ -34,6 +35,6 @@ Release notes and each repository's README describe what is available today. A r
 
 **LORD Labs** معمل مستقل بنبني فيه أدوات مفتوحة المصدر ومنتجات رقمية باهتمام بالتفاصيل، وبالعربي والإنجليزي.
 
-ابدأ بـ [ZipZap](https://github.com/Lord-Labs/ZipZap) لتنزيل الملفات على ويندوز، أو [LOR.](https://github.com/Lord-Labs/lor) لاجتماعات الفيديو. مشروع [NetScope](https://github.com/Lord-Labs/NetScope) لسه في مرحلة التأسيس؛ قياس الاستهلاك والفواتير مش ميزات جاهزة حاليًا.
+ابدأ بـ [ZipZap](https://github.com/Lord-Labs/ZipZap) لتنزيل الملفات على ويندوز، أو [LOR.](https://github.com/Lord-Labs/lor) لاجتماعات الفيديو، أو [OpenDownload](https://github.com/Lord-Labs/OpenDownload) لتنزيل الفيديو والصوت والصور العامة بالعربية والإنجليزية: [افتح التطبيق](https://opendownload.lord.blitz.cloud/) · [تعرّف على المشروع](https://opendownload-website.vercel.app/en). مشروع [NetScope](https://github.com/Lord-Labs/NetScope) لسه في مرحلة التأسيس؛ قياس الاستهلاك والفواتير مش ميزات جاهزة حاليًا.
 
 مساهمتك مرحب بيها، سواء إصلاح صغير، ترجمة، توثيق أو تجربة استخدام. راجع تعليمات المشروع قبل فتح Pull Request، وبلّغ عن المشاكل الأمنية بشكل خاص من تبويب **Security** في الريبو المعني.
